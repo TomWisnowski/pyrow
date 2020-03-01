@@ -1,0 +1,45 @@
+work_out_machine
+<pyrow.pyrow object at 0x0000000004785F48>
+work_out_machine
+<pyrow.pyrow object at 0x0000000004785F48>
+erg: <usb.core.Device object at 0x0000000004785E48>
+address: 3
+bDescriptorType: 1
+bDeviceClass: 0
+bDeviceProtocol: 0
+bDeviceSubClass: 0
+bLength: 18
+bMaxPacketSize0: 64
+bNumConfigurations: 1
+bcdDevice: 256
+bcdUSB: 272
+bus: 2
+default_timeout: 1000
+iManufacturer: 1
+iProduct: 2
+iSerialNumber: 3
+idProduct: 10
+idVendor: 6052
+_Device__default_timeout: 1000
+_ctx: <usb.core._ResourceManager object at 0x0000000004785F08>
+backend: <usb.backend.libusb10._LibUSB object at 0x0000000004785C48>
+dev: <usb.backend.libusb10._Device object at 0x0000000004785EC8>
+handle: c_void_p(108799168L)
+_active_cfg_index: 0
+_alt_set: {}
+_claimed_intf: set([0])
+_ep_type_map: {(2, 0, 0): 3, (129, 0, 0): 3}
+inEndpoint: 129
+outEndpoint: 2
+_pyrow__lastsend: datetime.datetime(2020, 2, 23, 16, 5, 33, 749000)
+day: 23
+hour: 16
+max: datetime.datetime(9999, 12, 31, 23, 59, 59, 999999)
+microsecond: 749000
+min: datetime.datetime(1, 1, 1, 0, 0)
+minute: 5
+month: 2
+resolution: datetime.timedelta(0, 0, 1)
+second: 33
+tzinfo: None
+year: 2020
