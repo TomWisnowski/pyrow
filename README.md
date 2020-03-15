@@ -1,4 +1,19 @@
-# Our notes on how to get started with Wiz Pyrow
+
+### Pre-requisites
+* python 3.X
+
+## To Run
+To run the application run the `statshow.py`
+In a command terminal enter the following command.
+```sh
+> python statshow.py
+```
+
+
+
+
+
+#### Our notes on how to get started with Wiz Pyrow
 Reference the original readme file [here](original_docs/README.md)
 
 
