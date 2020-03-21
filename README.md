@@ -8,13 +8,19 @@
 > cd /path/to/this/project/on/your/machine
 ```
 
-#### create and use a python virtual environment
+#### create a python virtual environment
 ```shell script
-> python3 -m venv venv
-> source venv/bin/activate
+> python3 -m venv venv (this is on python 3)
+> python -m venv venv (this is on python 2)
 ```
 
-#### install all dependencies
+#### use a python virtual environment
+```
+> source venv/bin/activate   (this is on python 3)
+> source venv/Scripts/activate   (this is on python 2)
+```
+
+#### install all dependencies (only do this when you have an active virtual environment)
 ```shell script
 > pip install -r requirements.txt
 ```
