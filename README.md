@@ -26,6 +26,13 @@ In a command terminal enter the following command.
 > python statshow.py
 ```
 
+## Running tests
+All tests should be named the same as the module but suffixed with `_test.py`
+You can run all tests by running the following command in a terminal. 
+```shell script
+> python -m unittest discover -p "*_test.py"
+```
+
 #### Our notes on how to get started with Wiz Pyrow
 Reference the original readme file [here](original_docs/README.md)
 
