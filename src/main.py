@@ -1,12 +1,13 @@
 import pyrow
 import queueService
 import Orchestrator
+import time
 
 
 if __name__ == '__main__':
-    mypyrow = new pyrow()
-    myqueueService = new queueService()
-    myOrchestrator = new Orchestrator()
+    mypyrow = pyrow()
+    myqueueService = queueService()
+    myOrchestrator = Orchestrator()
 
     while(1):
-        myOrchestrator.orchestrate(mypyrow, myqueueService)
+        myOrchestrator.orchestrate(mypyrow, myqueueService, time)

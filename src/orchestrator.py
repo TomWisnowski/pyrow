@@ -1,7 +1,7 @@
 class Orchestrator:
-    def orchestrate(mypyrow, myqueueService):
-        monitor = mypyrow.get_monitor()
+    def orchestrate(self, my_pyrow, my_queue_service, time):
+        monitor = my_pyrow.get_monitor()
 
-        myqueueService.send_to_queue(monitor)
+        my_queue_service.send(monitor)
 
-        sleep(1000)
+        time.sleep(1)
